@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095BBAAE2A1612F500FBC500 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BBAAD2A1612F500FBC500 /* InfoViewController.swift */; };
 		0966E4FF2A13600C00DE8744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966E4FE2A13600C00DE8744 /* AppDelegate.swift */; };
 		0966E5012A13600C00DE8744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966E5002A13600C00DE8744 /* SceneDelegate.swift */; };
 		0966E5032A13600C00DE8744 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966E5022A13600C00DE8744 /* LoginViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		095BBAAD2A1612F500FBC500 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoViewController.swift; path = ../../InfoViewController.swift; sourceTree = "<group>"; };
 		0966E4FB2A13600C00DE8744 /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0966E4FE2A13600C00DE8744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0966E5002A13600C00DE8744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				099026E52A15FD9B002CAA87 /* TabBarViewController.swift */,
 				0966E5122A136CA500DE8744 /* WelcomeViewController.swift */,
 				0966E5022A13600C00DE8744 /* LoginViewController.swift */,
+				095BBAAD2A1612F500FBC500 /* InfoViewController.swift */,
 				099026F52A161053002CAA87 /* AboutViewController.swift */,
 			);
 			path = ViewControllers;
@@ -184,6 +187,7 @@
 				099026F62A161053002CAA87 /* AboutViewController.swift in Sources */,
 				099026E62A15FD9B002CAA87 /* TabBarViewController.swift in Sources */,
 				0966E5012A13600C00DE8744 /* SceneDelegate.swift in Sources */,
+				095BBAAE2A1612F500FBC500 /* InfoViewController.swift in Sources */,
 				099026E82A15FF4C002CAA87 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
