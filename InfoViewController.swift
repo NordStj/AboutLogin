@@ -10,12 +10,13 @@ import UIKit
 class InfoViewController: UIViewController {
 
     @IBOutlet var infoLabel: UILabel!
+    var user: Information!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         infoLabel.lineBreakMode = .byWordWrapping
-        infoLabel.text = aboutMe
+        infoLabel.text = user.about
         
     }
     

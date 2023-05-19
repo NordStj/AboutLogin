@@ -8,6 +8,8 @@
 import UIKit
 
 class AboutViewController: UIViewController {
+    
+    var user: Information!
 
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var ageLabel: UILabel!
@@ -17,11 +19,16 @@ class AboutViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameLabel.text = "My name is \(name)"
-        ageLabel.text = "I'm \(age) years old."
-        favoriteLabel.text = "My favorite coffee is \(favorit)"
-        eatLabel.text = "I love \(eat)"
+        nameLabel.text = "My name is \(user.name)"
+        ageLabel.text = "I'm \(user.age) years old."
+        favoriteLabel.text = "My favorite coffee is \(user.favorite)"
+        eatLabel.text = "I love \(user.eat)"
 
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let infoVC = segue.destination as? InfoViewController else { return }
+        infoVC.user = user
     }
 
 }
